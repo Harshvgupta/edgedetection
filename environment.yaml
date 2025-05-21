@@ -1,0 +1,16 @@
+name: robust-detection-env
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - torch>=1.13
+      - torchvision
+      - opencv-python
+      - albumentations
+      - matplotlib
+      - pyyaml
+      - ultralytics
