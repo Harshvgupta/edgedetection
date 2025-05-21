@@ -1,0 +1,7 @@
+torch>=1.13
+torchvision
+opencv-python
+albumentations
+matplotlib
+pyyaml
+ultralytics
